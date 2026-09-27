@@ -1,0 +1,13 @@
+{
+  "name": "erp-sql-patterns",
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "pip install --upgrade pip && pip install pandas matplotlib seaborn jupyter openpyxl oracledb"
+}
